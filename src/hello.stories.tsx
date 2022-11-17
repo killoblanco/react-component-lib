@@ -1,5 +1,5 @@
-import { Greetings } from "./greetings";
+import { Greetings } from './greetings'
 
-export const World = () => <Greetings />
+export const World = (): JSX.Element => <Greetings />
 
-export const WithName = () => <Greetings name="Jhon" />
+export const WithName = (): JSX.Element => <Greetings name="Jhon" />
