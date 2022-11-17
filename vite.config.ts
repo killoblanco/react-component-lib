@@ -12,7 +12,14 @@ export default defineConfig({
     })
   ],
   test: {
-    environment: 'happy-dom'
+    environment: 'happy-dom',
+    coverage: {
+      reporter: ['text'],
+      lines: 80,
+      functions: 80,
+      branches: 80,
+      statements: 80,
+    },
   },
   build: {
     lib: {
