@@ -1,18 +1,18 @@
 {
-  "name": "scaffold",
+  "name": "name",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/scaffold.umd.cjs",
-  "module": "./dist/scaffold.js",
+  "main": "./dist/name.umd.cjs",
+  "module": "./dist/name.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/scaffold.js",
-      "require": "./dist/scaffold.umd.cjs"
+      "import": "./dist/name.js",
+      "require": "./dist/name.umd.cjs"
     }
   },
   "scripts": {
