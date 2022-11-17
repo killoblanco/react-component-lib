@@ -24,8 +24,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'Scaffold',
-      fileName: 'scaffold'
+      name: 'Name',
+      fileName: 'name'
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
